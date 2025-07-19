@@ -45,3 +45,15 @@ Docker
 Docker Compose
 
 Nginx
+
+✅ Expected Output
+For /app1:
+Hello from App 1
+For /app2:
+Hello from App 2
+You can also test with curl:
+curl http://<your-ec2-public-ip>/app1
+# Hello from App 1
+
+curl http://<your-ec2-public-ip>/app2
+# Hello from App 2
